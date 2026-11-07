@@ -1,5 +1,18 @@
 # React + TypeScript + Vite
 
+## GitHub Pages へのデプロイ
+
+```sh
+npm run deploy
+```
+
+ビルドした `dist` の内容を、`origin` の `gh-pages` ブランチへ送信します。
+Git のインストールと GitHub への push 権限が必要です。
+初回は GitHub の Settings → Pages で Source を「Deploy from a branch」、
+Branch を `gh-pages`、フォルダを `/ (root)` に設定してください。
+非公開リポジトリでの Pages 利用には、対応する GitHub プランが必要です。
+公開先は https://souki429.github.io/my-page/ です。
+
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
