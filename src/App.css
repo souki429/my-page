@@ -91,7 +91,7 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 6px; }
 .site-shell { min-width: 0; }
 .site-header > *, .hero-main > *, .principle-grid > * { min-width: 0; }
 .site-header .wordmark { max-width: 100%; overflow-wrap: anywhere; font-size: clamp(28px, 6.5vw, 96px); }
-.hero-copy h1 { font-size: clamp(80px, 13vw, 185px); }
+.hero-copy h1 { font-size: clamp(64px, 10.4vw, 148px); }
 .hero-subtitle { font-size: clamp(24px, 3.5vw, 48px); }
 .principles-heading h2, .principle-card h3 { overflow-wrap: anywhere; }
 .principle-card h3 { font-size: clamp(24px, 2.5vw, 36px); }
@@ -99,7 +99,7 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 6px; }
 @media (max-width: 767px) {
   .principle-grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-1); }
   .hero-main { grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
-  .hero-copy h1 { font-size: clamp(80px, 26vw, 160px); }
+  .hero-copy h1 { font-size: clamp(64px, 20.8vw, 128px); }
   .hero-subtitle { font-size: clamp(24px, 6vw, 36px); }
   .principles-heading { gap: var(--space-1); align-items: flex-start; }
   .principles-heading > svg { flex-shrink: 0; }
